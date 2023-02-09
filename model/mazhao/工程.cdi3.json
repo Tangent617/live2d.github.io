@@ -1,0 +1,160 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "前发 左右摇"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "前发前后摇"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "脚左右摇"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "脚前后摇"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "外套穿脱"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "张开手"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "眼镜"
+		},
+		{
+			"Id": "Part2",
+			"Name": "嘴"
+		},
+		{
+			"Id": "Part3",
+			"Name": "脸"
+		},
+		{
+			"Id": "Part7",
+			"Name": "脚"
+		},
+		{
+			"Id": "Part8",
+			"Name": "外套领子"
+		},
+		{
+			"Id": "Part9",
+			"Name": "衬衫领子"
+		},
+		{
+			"Id": "Part10",
+			"Name": "右手"
+		},
+		{
+			"Id": "Part11",
+			"Name": "身体"
+		},
+		{
+			"Id": "Part12",
+			"Name": "左手"
+		},
+		{
+			"Id": "Part13",
+			"Name": "腿"
+		},
+		{
+			"Id": "Part14",
+			"Name": "领子后"
+		},
+		{
+			"Id": "Part4",
+			"Name": "眼皮"
+		},
+		{
+			"Id": "Part5",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part6",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Part15",
+			"Name": "衬衫领子后"
+		},
+		{
+			"Id": "Part16",
+			"Name": "外套领子后"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamHairFront",
+			"Param4"
+		],
+		[
+			"Param2",
+			"Param3"
+		]
+	]
+}

@@ -1,0 +1,122 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "工程.moc3",
+    "Textures": [
+      "工程.2048/texture_00.png",
+      "工程.2048/texture_01.png",
+      "工程.2048/texture_02.png",
+      "工程.2048/texture_03.png",
+      "工程.2048/texture_04.png",
+      "工程.2048/texture_05.png",
+      "工程.2048/texture_06.png",
+      "工程.2048/texture_07.png",
+      "工程.2048/texture_08.png",
+      "工程.2048/texture_09.png"
+    ],
+    "Physics": "工程.physics3.json",
+    "PhysicsV2": {
+      "File": "工程.physics3.json"
+    },
+    "Motions": {
+      "张嘴": [
+        {
+          "File": "act/zhangzui.motion3.json",
+          "NextMtn": "闭嘴"
+        }
+      ],
+      "脱外套": [
+        {
+          "File": "act/tuowaitao.motion3.json"
+        }
+      ],
+      "穿外套": [
+        {
+          "File": "act/chuanwaitao.motion3.json"
+        }
+      ],
+      "闭嘴": [
+        {
+          "File": "act/bizui.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "脱外套",
+        "File": "expression1.exp3.json"
+      },
+      {
+        "Name": "张嘴",
+        "File": "expression2.exp3.json"
+      }
+    ]
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {
+      "Items": [
+        {
+          "Input": 32,
+          "DownMtn": "张嘴"
+        },
+        {
+          "Input": 13,
+          "DownMtn": "张嘴"
+        }
+      ],
+      "Enabled": true
+    },
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {},
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "外套",
+      "Id": "ArtMesh42",
+      "Motion": "脱外套"
+    },
+    {
+      "Name": "衬衫",
+      "Id": "ArtMesh44",
+      "Motion": "穿外套"
+    }
+  ],
+  "Options": {}
+}
