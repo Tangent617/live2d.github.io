@@ -1,0 +1,22 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "flea.moc3",
+		"Textures": [
+			"flea.1024/texture_00.png"
+		],
+		"DisplayInfo": "flea.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
